@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorMultipleApps.FirstClient", "BlazorMultipleApps.FirstClient\BlazorMultipleApps.FirstClient.csproj", "{F3931917-8A6B-416E-8C0B-A54D3530467B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiBlazorApps", "MultiBlazorApps\MultiBlazorApps\MultiBlazorApps.csproj", "{0E55FCC2-0B34-48AB-83E5-49764EAAFFD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiBlazorApps.Client", "MultiBlazorApps\MultiBlazorApps.Client\MultiBlazorApps.Client.csproj", "{16EE45AB-FB38-4EF8-AC96-1A91C7D9E24A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorMultipleApps.Shared", "BlazorMultipleApps.Shared\BlazorMultipleApps.Shared.csproj", "{EF6705C8-AC71-430E-823A-7858E1D441B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiBlazorApps.SecondClient", "MultiBlazorApps.SecondClient\MultiBlazorApps.SecondClient.csproj", "{68548E4D-3ACD-4C70-BE94-933658758DCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiBlazorApps.ThirdClient", "MultiBlazorApps.ThirdClient\MultiBlazorApps.ThirdClient.csproj", "{F66CC419-BDCC-4396-A7DC-9400DC5E9437}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3931917-8A6B-416E-8C0B-A54D3530467B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3931917-8A6B-416E-8C0B-A54D3530467B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3931917-8A6B-416E-8C0B-A54D3530467B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3931917-8A6B-416E-8C0B-A54D3530467B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E55FCC2-0B34-48AB-83E5-49764EAAFFD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E55FCC2-0B34-48AB-83E5-49764EAAFFD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E55FCC2-0B34-48AB-83E5-49764EAAFFD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E55FCC2-0B34-48AB-83E5-49764EAAFFD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16EE45AB-FB38-4EF8-AC96-1A91C7D9E24A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16EE45AB-FB38-4EF8-AC96-1A91C7D9E24A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16EE45AB-FB38-4EF8-AC96-1A91C7D9E24A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16EE45AB-FB38-4EF8-AC96-1A91C7D9E24A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF6705C8-AC71-430E-823A-7858E1D441B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF6705C8-AC71-430E-823A-7858E1D441B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF6705C8-AC71-430E-823A-7858E1D441B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF6705C8-AC71-430E-823A-7858E1D441B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68548E4D-3ACD-4C70-BE94-933658758DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68548E4D-3ACD-4C70-BE94-933658758DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68548E4D-3ACD-4C70-BE94-933658758DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68548E4D-3ACD-4C70-BE94-933658758DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F66CC419-BDCC-4396-A7DC-9400DC5E9437}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F66CC419-BDCC-4396-A7DC-9400DC5E9437}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F66CC419-BDCC-4396-A7DC-9400DC5E9437}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F66CC419-BDCC-4396-A7DC-9400DC5E9437}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9308C12-2261-484A-989E-0A7DD3C045CE}
+	EndGlobalSection
+EndGlobal

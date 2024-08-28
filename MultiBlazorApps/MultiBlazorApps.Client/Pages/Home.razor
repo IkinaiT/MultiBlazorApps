@@ -1,0 +1,36 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+
+<div class="mw">
+    <a class="a-class" href="/FirstClient">К проекту админки</a>
+    <a class="a-class" href="/SecondClient">К проекту сайта визитки</a>
+    <a class="a-class" href="/ThirdClient">К проекту подтверждения покупки</a>
+</div>
+
+<style>
+    .mw {
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+    }
+
+    .mw .a-class {
+        border: 1px solid #00000077;
+        border-radius: 15px;
+        background: #eee;
+        padding: 20px;
+        text-decoration: none;
+        color: #000;
+    }
+
+    .mw a-class:hover{
+        background: #aaa;
+        transition: background 0.7s;
+    }
+</style>
