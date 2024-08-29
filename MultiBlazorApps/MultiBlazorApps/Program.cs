@@ -75,6 +75,21 @@ app.MapWhen(ctx => ctx.Request.Path.StartsWithSegments("/ThirdClient", StringCom
     });
 });
 
+app.MapWhen(ctx => ctx.Request.Path.StartsWithSegments("/FourthClient", StringComparison.OrdinalIgnoreCase), fourth =>
+{
+    fourth.UseBlazorFrameworkFiles("/FourthClient");
+
+    fourth.UseStaticFiles();
+    fourth.UseStaticFiles("/FourthClient");
+
+    fourth.UseRouting();
+    fourth.UseEndpoints(endpoints =>
+    {
+        endpoints.MapControllers();
+        endpoints.MapFallbackToFile("/FourthClient/{*path:nonfile}", "FourthClient");
+    });
+});
+
 app.MapRazorComponents<App>()
     .AddInteractiveWebAssemblyRenderMode()
     .AddAdditionalAssemblies(typeof(MultiBlazorApps.Client._Imports).Assembly);

@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\BlazorMultipleApps.FirstClient\BlazorMultipleApps.FirstClient.csproj" />
+    <ProjectReference Include="..\..\FourthClient\FourthClient.csproj" />
     <ProjectReference Include="..\..\MultiBlazorApps.SecondClient\MultiBlazorApps.SecondClient.csproj" />
     <ProjectReference Include="..\..\MultiBlazorApps.ThirdClient\MultiBlazorApps.ThirdClient.csproj" />
     <ProjectReference Include="..\MultiBlazorApps.Client\MultiBlazorApps.Client.csproj" />
